@@ -10,7 +10,7 @@ export default function TodoList({ onBack }) {
     const [newTaskText, setNewTaskText] = useState("")
     const [editingTask, setEditingTask] = useState(null)
     const [editText, setEditText] = useState("")
-    const [filter, setFilter] = useState < "all" | "active" | "completed" > ("all")
+    const [filter, setFilter] = useState("all")
 
     // Load tasks from localStorage on component mount
     useEffect(() => {
