@@ -110,7 +110,7 @@ export default function Home() {
               {/* Footer */}
               <div className="text-center mt-12">
                 <p className="text-gray-500">
-                  Built with Next.js and Tailwind CSS • Choose an app above to get started
+                  Built with React+vite and Tailwind CSS
                 </p>
               </div>
             </div>
